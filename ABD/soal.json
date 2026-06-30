@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa yang dimaksud dengan Administrasi Basis Data (ABD)?",
+    "pilihan": {
+      "A": "Proses merancang tampilan antarmuka pengguna untuk aplikasi basis data",
+      "B": "Kegiatan mengelola, memelihara, dan mengamankan sistem basis data agar beroperasi secara optimal",
+      "C": "Bahasa pemrograman yang digunakan untuk membuat aplikasi web",
+      "D": "Proses mengubah data menjadi informasi visual",
+      "E": "Teknik menghubungkan perangkat keras komputer ke jaringan"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Siapakah yang bertanggung jawab utama terhadap kinerja, integritas, dan keamanan basis data dalam sebuah organisasi?",
+    "pilihan": {
+      "A": "System Analyst",
+      "B": "Database Administrator (DBA)",
+      "C": "Front-end Developer",
+      "D": "Network Engineer",
+      "E": "UI/UX Designer"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Manakah dari berikut ini yang BUKAN merupakan tugas rutin seorang Administrator Basis Data?",
+    "pilihan": {
+      "A": "Melakukan instalasi dan konfigurasi sistem manajemen basis data (DBMS)",
+      "B": "Merancang dan menulis kode logika bisnis aplikasi (business logic)",
+      "C": "Melakukan backup dan pemulihan data",
+      "D": "Memantau kinerja dan melakukan optimasi query",
+      "E": "Mengatur hak akses dan keamanan pengguna"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Dalam siklus hidup basis data, pada tahap manakah seorang DBA biasanya paling banyak terlibat untuk memastikan struktur data berjalan efisien?",
+    "pilihan": {
+      "A": "Requirements gathering",
+      "B": "Physical design dan implementasi",
+      "C": "Pembuatan prototipe UI",
+      "D": "Pemasaran perangkat lunak",
+      "E": "Pelatihan pengguna akhir (end-user)"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Apa tujuan utama dari pengaturan hak akses (privileges) dalam Administrasi Basis Data?",
+    "pilihan": {
+      "A": "Mempercepat waktu eksekusi query",
+      "B": "Mencegah terjadinya deadlock pada sistem",
+      "C": "Memastikan hanya pengguna yang berwenang yang dapat melihat atau memodifikasi data tertentu",
+      "D": "Menghubungkan aplikasi web dengan database server",
+      "E": "Mengurangi ukuran file database di dalam hard drive"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Jenis backup yang menyalin seluruh data dan struktur basis data tanpa terkecuali disebut:",
+    "pilihan": {
+      "A": "Differential Backup",
+      "B": "Incremental Backup",
+      "C": "Transaction Log Backup",
+      "D": "Full Backup",
+      "E": "Mirroring Backup"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Jika Anda melakukan Full Backup pada hari Minggu, dan Incremental Backup setiap hari setelahnya. Pada hari Rabu terjadi kerusakan. Backup mana saja yang harus direstore?",
+    "pilihan": {
+      "A": "Hanya Incremental hari Rabu",
+      "B": "Full Backup Minggu dan Incremental hari Rabu",
+      "C": "Full Backup Minggu, Incremental Senin, Selasa, dan Rabu",
+      "D": "Full Backup Minggu dan Incremental Selasa saja",
+      "E": "Hanya Full Backup Minggu"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Apa perbedaan utama antara Differential Backup dan Incremental Backup?",
+    "pilihan": {
+      "A": "Differential membackup data sejak Full backup terakhir, Incremental membackup data sejak backup jenis apapun yang terakhir",
+      "B": "Incremental membackup data sejak Full backup terakhir, Differential membackup data sejak backup jenis apapun yang terakhir",
+      "C": "Differential lebih cepat proses restore-nya dibandingkan Full Backup, sedangkan Incremental tidak bisa direstore",
+      "D": "Incremental membutuhkan ruang penyimpanan lebih besar daripada Differential pada hari yang sama",
+      "E": "Differential hanya menyimpan skema, sedangkan Incremental menyimpan isi data"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Proses mengembalikan basis data ke keadaan yang konsisten setelah terjadi kegagalan sistem disebut:",
+    "pilihan": {
+      "A": "Data Mining",
+      "B": "Data Warehousing",
+      "C": "Database Recovery",
+      "D": "Database Migration",
+      "E": "Data Replication"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Point-in-Time Recovery (PITR) sangat bergantung pada ketersediaan:",
+    "pilihan": {
+      "A": "Tabel Index",
+      "B": "Transaction Log",
+      "C": "User Privileges",
+      "D": "Data Dictionary",
+      "E": "Query Optimizer"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Kejadian di mana data center utama mengalami bencana alam dan sistem otomatis dialihkan ke data center cadangan dikenal dengan istilah:",
+    "pilihan": {
+      "A": "Failover",
+      "B": "Load Balancing",
+      "C": "Deadlock",
+      "D": "Concurrency",
+      "E": "Rollback"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Fungsi utama dari Index dalam sebuah tabel basis data adalah:",
+    "pilihan": {
+      "A": "Mengenkripsi data agar aman dari peretas",
+      "B": "Mempercepat proses pencarian dan pengambilan data",
+      "C": "Menghubungkan dua tabel yang tidak memiliki relasi",
+      "D": "Mempercepat proses operasi INSERT dan UPDATE pada tabel",
+      "E": "Mengurangi ukuran penyimpanan database secara drastis"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Struktur data apa yang paling umum digunakan oleh DBMS relasional untuk mengimplementasikan index?",
+    "pilihan": {
+      "A": "Linked List",
+      "B": "Stack",
+      "C": "B-Tree",
+      "D": "Queue",
+      "E": "Graph"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Apa dampak negatif dari membuat terlalu banyak index pada sebuah tabel?",
+    "pilihan": {
+      "A": "Operasi SELECT menjadi sangat lambat",
+      "B": "Database tidak bisa lagi di-backup",
+      "C": "Meningkatkan overhead penyimpanan dan memperlambat operasi DML (INSERT, UPDATE, DELETE)",
+      "D": "Menghilangkan sifat ACID dari basis data",
+      "E": "Tabel akan terkunci (lock) secara permanen"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Jenis index di mana susunan fisik baris data di dalam tabel sama dengan susunan pada index disebut:",
+    "pilihan": {
+      "A": "Non-Clustered Index",
+      "B": "Unique Index",
+      "C": "Hash Index",
+      "D": "Clustered Index",
+      "E": "Bitmap Index"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Berapa jumlah maksimal Clustered Index yang bisa dimiliki oleh sebuah tabel?",
+    "pilihan": {
+      "A": "Tidak terbatas",
+      "B": "Sesuai jumlah kolom",
+      "C": "Tiga",
+      "D": "Dua",
+      "E": "Satu"
+    },
+    "jawaban_benar": "E"
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Kegiatan mengamati statistik server database seperti penggunaan CPU, memori, dan I/O disk merupakan bagian dari:",
+    "pilihan": {
+      "A": "Database Recovery",
+      "B": "Control & Monitoring",
+      "C": "Transaction Management",
+      "D": "Data Modeling",
+      "E": "Database Normalization"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Alat (tool) apa yang biasanya digunakan oleh DBA untuk melihat query mana yang membutuhkan waktu eksekusi paling lama?",
+    "pilihan": {
+      "A": "Slow Query Log",
+      "B": "Error Log",
+      "C": "Transaction Log",
+      "D": "Access Log",
+      "E": "Audit Trail"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Perintah EXPLAIN dalam SQL (seperti di MySQL atau PostgreSQL) digunakan untuk:",
+    "pilihan": {
+      "A": "Menjelaskan arti dari sebuah kolom kepada pengguna",
+      "B": "Menampilkan rencana eksekusi (execution plan) dari sebuah query untuk keperluan optimasi",
+      "C": "Menghapus data yang redundan secara otomatis",
+      "D": "Membuat laporan kinerja database bulanan",
+      "E": "Mengubah struktur tabel"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Tindakan apa yang tepat dilakukan jika monitoring menunjukkan bahwa sebuah tabel sering dibaca tetapi sangat jarang di-update, namun query pembacaannya lambat?",
+    "pilihan": {
+      "A": "Menghapus semua index di tabel tersebut",
+      "B": "Menambahkan index pada kolom yang sering dijadikan kriteria pencarian",
+      "C": "Menghapus tabel dan membuatnya kembali",
+      "D": "Mengubah tipe data semua kolom menjadi VARCHAR",
+      "E": "Mematikan server database"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Salah satu tujuan utama pengendalian akses (Control) dalam basis data adalah:",
+    "pilihan": {
+      "A": "Meningkatkan ukuran database",
+      "B": "Mencegah akses, modifikasi, atau penghancuran data yang tidak sah (unauthorized)",
+      "C": "Mengurangi kecepatan jaringan internet",
+      "D": "Memastikan semua tabel memiliki Foreign Key",
+      "E": "Membuat antarmuka pengguna lebih menarik"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Metrik 'Cache Hit Ratio' pada monitoring basis data menunjukkan:",
+    "pilihan": {
+      "A": "Persentase kegagalan hard disk",
+      "B": "Rasio antara jumlah query SELECT dan UPDATE",
+      "C": "Persentase permintaan data yang berhasil dilayani dari memori cache tanpa harus membaca disk",
+      "D": "Jumlah koneksi pengguna yang terputus",
+      "E": "Kecepatan transfer data dari server ke klien"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Apa fungsi utama dari Transaction Log dalam DBMS?",
+    "pilihan": {
+      "A": "Mencatat daftar pengguna yang sedang online",
+      "B": "Menyimpan seluruh modifikasi data secara berurutan sebelum ditulis permanen ke disk, untuk keperluan pemulihan",
+      "C": "Menghasilkan laporan keuangan bulanan dari database",
+      "D": "Mengenkripsi password pengguna",
+      "E": "Mencatat error sintaks yang diketik oleh programmer"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Konsep Write-Ahead Logging (WAL) memastikan bahwa:",
+    "pilihan": {
+      "A": "Data ditulis ke disk data utama sebelum dicatat di log",
+      "B": "Catatan perubahan ditulis ke log dan disimpan di disk sebelum data di tabel utama diperbarui",
+      "C": "Semua query SELECT dicatat untuk audit keamanan",
+      "D": "Log file dihapus setiap kali transaksi selesai",
+      "E": "Database tidak memerlukan backup lagi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Dalam proses pemulihan (recovery), membaca transaction log untuk mengulang kembali transaksi yang sudah commit setelah crash disebut fase:",
+    "pilihan": {
+      "A": "Undo",
+      "B": "Redo",
+      "C": "Rollback",
+      "D": "Checkpoint",
+      "E": "Deadlock"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Membatalkan (reverting) transaksi yang belum selesai (uncommitted) saat sistem crash menggunakan informasi dari log disebut fase:",
+    "pilihan": {
+      "A": "Redo",
+      "B": "Commit",
+      "C": "Undo",
+      "D": "Forward recovery",
+      "E": "Replication"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Apa fungsi dari Checkpoint dalam kaitannya dengan Transaction Log?",
+    "pilihan": {
+      "A": "Mencegah pengguna login ke database",
+      "B": "Menandai titik di mana semua modifikasi data di memori telah disalin ke disk, mengurangi waktu recovery",
+      "C": "Menghapus semua data dalam tabel",
+      "D": "Menggandakan kapasitas penyimpanan",
+      "E": "Menggabungkan dua tabel menjadi satu"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Jika Transaction Log penuh dan tidak ada ruang tersisa di disk, apa yang umumnya terjadi pada DBMS?",
+    "pilihan": {
+      "A": "Database berjalan lebih cepat",
+      "B": "Otomatis menghapus tabel terlama",
+      "C": "DBMS akan menolak operasi modifikasi data (DML) baru sampai ada ruang di log",
+      "D": "Otomatis beralih menggunakan RAM sepenuhnya",
+      "E": "Tidak terjadi apa-apa, data tidak dicatat lagi"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Singkatan ACID dalam transaksi basis data kepanjangan dari:",
+    "pilihan": {
+      "A": "Automated, Computed, Indexed, Distributed",
+      "B": "Atomicity, Consistency, Isolation, Durability",
+      "C": "Accuracy, Concurrency, Integrity, Dependability",
+      "D": "Allocation, Control, Insertion, Deletion",
+      "E": "Association, Connection, Integration, Data"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Sifat transaksi di mana seluruh operasi dalam satu transaksi harus berhasil semua, atau gagal/dibatalkan semua, adalah:",
+    "pilihan": {
+      "A": "Atomicity",
+      "B": "Consistency",
+      "C": "Isolation",
+      "D": "Durability",
+      "E": "Concurrency"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 31,
+    "pertanyaan": "Prinsip Durability dalam ACID menjamin bahwa:",
+    "pilihan": {
+      "A": "Transaksi yang gagal tidak akan merusak data",
+      "B": "Data yang telah di-commit akan tetap tersimpan permanen meskipun terjadi kegagalan sistem atau mati listrik",
+      "C": "Setiap transaksi berjalan secara mandiri tanpa diganggu transaksi lain",
+      "D": "Database tidak akan pernah mengalami downtime",
+      "E": "Struktur database tidak bisa diubah"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Sifat ACID yang memastikan transaksi membawa basis data dari satu keadaan valid ke keadaan valid lainnya sesuai dengan aturan (constraints) yang ada adalah:",
+    "pilihan": {
+      "A": "Atomicity",
+      "B": "Consistency",
+      "C": "Isolation",
+      "D": "Durability",
+      "E": "Integrity"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Dua transaksi berjalan bersamaan. Transaksi A tidak dapat melihat perubahan yang sedang dilakukan oleh Transaksi B sampai Transaksi B selesai (commit). Ini adalah contoh penerapan:",
+    "pilihan": {
+      "A": "Atomicity",
+      "B": "Consistency",
+      "C": "Isolation",
+      "D": "Durability",
+      "E": "Redundancy"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Perintah SQL apa yang digunakan untuk menyatakan bahwa suatu transaksi berhasil diselesaikan dan datanya disimpan permanen?",
+    "pilihan": {
+      "A": "ROLLBACK",
+      "B": "SAVEPOINT",
+      "C": "END",
+      "D": "COMMIT",
+      "E": "FINISH"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Concurrency Control diperlukan dalam sistem basis data multi-user untuk mencegah:",
+    "pilihan": {
+      "A": "Database diakses dari luar jaringan",
+      "B": "Anomali data karena beberapa transaksi membaca dan memodifikasi data yang sama secara bersamaan",
+      "C": "Virus menginfeksi server",
+      "D": "Pengguna lupa password mereka",
+      "E": "Hard disk penuh"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Mekanisme paling umum yang digunakan DBMS untuk mengelola Concurrency Control adalah:",
+    "pilihan": {
+      "A": "Hashing",
+      "B": "Indexing",
+      "C": "Locking (Penguncian)",
+      "D": "Paging",
+      "E": "Swapping"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Jika Transaksi A memegang 'Exclusive Lock' pada Baris X, apa yang bisa dilakukan Transaksi B pada Baris X?",
+    "pilihan": {
+      "A": "Bisa membaca tetapi tidak bisa memodifikasi",
+      "B": "Bisa memodifikasi tetapi tidak bisa membaca",
+      "C": "Bisa membaca dan memodifikasi",
+      "D": "Tidak bisa membaca maupun memodifikasi sampai Transaksi A melepaskan kunci",
+      "E": "Transaksi B akan menghapus Transaksi A"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Masalah konkurensi di mana sebuah transaksi membaca data yang telah diubah oleh transaksi lain yang belum di-commit disebut:",
+    "pilihan": {
+      "A": "Lost Update",
+      "B": "Dirty Read",
+      "C": "Non-repeatable Read",
+      "D": "Phantom Read",
+      "E": "Deadlock"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Tingkat isolasi (Isolation Level) tertinggi dalam SQL yang sepenuhnya mencegah Dirty Read, Non-repeatable Read, dan Phantom Read adalah:",
+    "pilihan": {
+      "A": "READ UNCOMMITTED",
+      "B": "READ COMMITTED",
+      "C": "REPEATABLE READ",
+      "D": "SERIALIZABLE",
+      "E": "SNAPSHOT"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Pendekatan konkurensi yang berasumsi konflik jarang terjadi dan hanya memvalidasi transaksi pada saat commit disebut:",
+    "pilihan": {
+      "A": "Pessimistic Concurrency Control",
+      "B": "Optimistic Concurrency Control",
+      "C": "Two-Phase Locking",
+      "D": "Timestamp Ordering",
+      "E": "Deadlock Prevention"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 41,
+    "pertanyaan": "Apa yang dimaksud dengan Deadlock dalam konteks basis data?",
+    "pilihan": {
+      "A": "Kondisi di mana server mati total",
+      "B": "Kondisi di mana hard disk tidak bisa dibaca lagi",
+      "C": "Kondisi di mana dua atau lebih transaksi saling menunggu satu sama lain untuk melepaskan lock, sehingga tidak ada yang bisa selesai",
+      "D": "Kondisi di mana transaksi memakan waktu terlalu lama dan dihentikan oleh user",
+      "E": "Kondisi hilangnya data akibat tidak ada backup"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Grafik yang digunakan oleh DBMS untuk mendeteksi adanya Deadlock adalah:",
+    "pilihan": {
+      "A": "Entity-Relationship Graph",
+      "B": "Gantt Chart",
+      "C": "Wait-for Graph",
+      "D": "Data Flow Diagram",
+      "E": "State Transition Diagram"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Dalam Wait-for Graph, deadlock terdeteksi jika terdapat:",
+    "pilihan": {
+      "A": "Garis lurus panjang",
+      "B": "Siklus (Cycle) atau putaran",
+      "C": "Simpul (Node) yang terisolasi",
+      "D": "Banyak cabang dari satu node",
+      "E": "Tidak ada node sama sekali"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Ketika DBMS mendeteksi terjadinya deadlock, tindakan yang biasanya diambil oleh sistem adalah:",
+    "pilihan": {
+      "A": "Merestart server secara otomatis",
+      "B": "Menghapus tabel yang menyebabkan deadlock",
+      "C": "Memilih salah satu transaksi sebagai 'victim' (korban) lalu melakukan Rollback pada transaksi tersebut",
+      "D": "Memberikan lock tambahan kepada semua transaksi",
+      "E": "Mengubah tingkat isolasi menjadi Serializble"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Salah satu cara untuk menghindari (prevention) deadlock dari sisi aplikasi adalah:",
+    "pilihan": {
+      "A": "Selalu mengakses tabel dengan urutan yang sama di semua transaksi",
+      "B": "Membuat transaksi sepanjang mungkin",
+      "C": "Tidak menggunakan index pada tabel",
+      "D": "Selalu menggunakan level isolasi Read Uncommitted",
+      "E": "Mengeksekusi semua transaksi di malam hari"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Analisa Kasus: Pengguna melaporkan bahwa saat mencari data nasabah berdasarkan 'Nomor KTP', aplikasi terasa sangat lambat (loading lama). Sebagai DBA, langkah pertama yang paling logis adalah:",
+    "pilihan": {
+      "A": "Meminta developer membuat ulang aplikasi dari awal",
+      "B": "Menambah kapasitas RAM pada server hingga maksimal",
+      "C": "Memeriksa apakah ada Index pada kolom 'Nomor KTP' di tabel nasabah menggunakan eksekusi plan",
+      "D": "Melakukan Full Backup saat itu juga",
+      "E": "Menghapus data nasabah yang sudah lama"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Analisa Kasus: Terjadi pemadaman listrik tiba-tiba pada server utama. Saat dinyalakan kembali, database berjalan otomatis dan memulihkan data. Proses memastikan transaksi yang terputus dibatalkan sepenuhnya sesuai dengan sifat ACID apa?",
+    "pilihan": {
+      "A": "Durability",
+      "B": "Atomicity",
+      "C": "Isolation",
+      "D": "Consistency",
+      "E": "Scalability"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Analisa Kasus: Di sistem e-commerce, sisa stok barang X adalah 1. User A dan User B mencoba membeli barang X di detik yang sama persis. Keduanya berhasil checkout, dan stok menjadi -1. Konsep apa yang gagal diimplementasikan di sini?",
+    "pilihan": {
+      "A": "Backup Database",
+      "B": "Concurrency Control",
+      "C": "Pembuatan Index",
+      "D": "Replication",
+      "E": "Normalisasi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Analisa Kasus: Anda menyadari bahwa file log transaksi membengkak hingga memenuhi kapasitas hard disk, meskipun database harian relatif kecil. Apa penyebab paling mungkin?",
+    "pilihan": {
+      "A": "Banyak query SELECT dijalankan oleh pengguna",
+      "B": "Aplikasi sering mengirimkan query lambat",
+      "C": "Pembuatan backup log transaksi (Log Backup) jarang atau tidak pernah dilakukan, sehingga log tidak ter-truncate",
+      "D": "Hard disk mengalami kerusakan fisik (bad sector)",
+      "E": "Database belum dinormalisasi ke bentuk 3NF"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Analisa Kasus: Perusahaan ingin agar jika server utama meledak, sistem bisa kembali beroperasi dalam waktu maksimal 5 menit dengan kehilangan data maksimal 1 menit terakhir. Pendekatan apa yang wajib disiapkan oleh DBA?",
+    "pilihan": {
+      "A": "Melakukan Full Backup setiap malam minggu",
+      "B": "Menerapkan High Availability (misal: Synchronous Replication/Mirroring) ke server sekunder",
+      "C": "Mengganti jenis hard disk menjadi SSD",
+      "D": "Menghapus file Transaction Log setiap jam",
+      "E": "Membuat Clustered Index pada setiap tabel"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 51,
+    "pertanyaan": "Backup yang dilakukan pada saat basis data sedang aktif dan beroperasi melayani pengguna disebut dengan...",
+    "pilihan": {
+      "A": "Cold Backup",
+      "B": "Offline Backup",
+      "C": "Hot Backup",
+      "D": "Logical Backup",
+      "E": "Physical Backup"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Dalam perencanaan pemulihan bencana (Disaster Recovery), metrik RTO (Recovery Time Objective) mendefinisikan...",
+    "pilihan": {
+      "A": "Jumlah data maksimal yang boleh hilang",
+      "B": "Waktu maksimal yang diizinkan untuk memulihkan sistem hingga berjalan normal kembali",
+      "C": "Anggaran maksimal untuk server cadangan",
+      "D": "Jarak lokasi antara data center utama dan cadangan",
+      "E": "Kecepatan transfer jaringan saat replikasi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 53,
+    "pertanyaan": "Sedangkan metrik RPO (Recovery Point Objective) digunakan untuk menentukan...",
+    "pilihan": {
+      "A": "Waktu maksimal sistem boleh down",
+      "B": "Titik maksimal toleransi kehilangan data yang diukur dalam waktu (misal: hanya boleh kehilangan data 15 menit terakhir)",
+      "C": "Titik kordinat lokasi data center",
+      "D": "Waktu yang dibutuhkan teknisi untuk tiba di lokasi",
+      "E": "Berapa banyak tabel yang harus direstore"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Index yang dibuat dengan menggabungkan lebih dari satu kolom dalam sebuah tabel disebut...",
+    "pilihan": {
+      "A": "Unique Index",
+      "B": "Full-Text Index",
+      "C": "Clustered Index",
+      "D": "Composite Index",
+      "E": "Spatial Index"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Membuat index konvensional (B-Tree) pada kolom dengan kardinalitas sangat rendah, seperti kolom 'Jenis Kelamin' (Laki-laki/Perempuan), biasanya...",
+    "pilihan": {
+      "A": "Sangat disarankan untuk mempercepat query",
+      "B": "Tidak efektif dan justru dapat menurunkan performa karena overhead pemeliharaan index",
+      "C": "Diwajibkan oleh standar SQL",
+      "D": "Akan mengubah kolom menjadi Primary Key otomatis",
+      "E": "Akan memicu error saat perintah dieksekusi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 56,
+    "pertanyaan": "Jenis index apa yang paling cocok dan hemat ruang untuk kolom dengan kardinalitas rendah (sedikit variasi nilai) di dalam Data Warehouse?",
+    "pilihan": {
+      "A": "Bitmap Index",
+      "B": "Hash Index",
+      "C": "Clustered Index",
+      "D": "R-Tree Index",
+      "E": "Reverse Key Index"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 57,
+    "pertanyaan": "Dalam konsep kontrol dan keamanan, memberikan hak akses kepada pengguna hanya sebesar yang mereka butuhkan untuk melakukan pekerjaan mereka dikenal dengan prinsip...",
+    "pilihan": {
+      "A": "Separation of Duties",
+      "B": "Least Privilege",
+      "C": "Data Encryption",
+      "D": "Auditing",
+      "E": "Two-Factor Authentication"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 58,
+    "pertanyaan": "Fitur pada DBMS yang mencatat secara terperinci siapa pengguna yang mengakses, mengubah, atau menghapus data sensitif untuk keperluan investigasi keamanan disebut...",
+    "pilihan": {
+      "A": "Database Profiler",
+      "B": "Transaction Log",
+      "C": "Audit Trail (Database Auditing)",
+      "D": "Performance Monitor",
+      "E": "Slow Query Log"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 59,
+    "pertanyaan": "Apa fungsi dari parameter LSN (Log Sequence Number) dalam Transaction Log?",
+    "pilihan": {
+      "A": "Mengidentifikasi jumlah baris dalam tabel secara spesifik",
+      "B": "Sebagai identifier unik dan berurutan untuk setiap record transaksi yang dicatat dalam log",
+      "C": "Menghitung jumlah koneksi aktif secara real-time",
+      "D": "Menyimpan kata sandi pengguna yang telah dienkripsi",
+      "E": "Mengatur nomor port default untuk koneksi DBMS"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 60,
+    "pertanyaan": "Proses mengosongkan atau menandai bagian dari Transaction Log yang transaksinya sudah ditulis permanen ke disk agar ruang log bisa digunakan kembali oleh transaksi baru disebut...",
+    "pilihan": {
+      "A": "Log Truncation",
+      "B": "Log Shrinking",
+      "C": "Log Shipping",
+      "D": "Log Mirroring",
+      "E": "Log Backup"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 61,
+    "pertanyaan": "Sifat 'Consistency' dalam ACID memastikan bahwa jika sebelum transaksi total uang antara pengirim dan penerima adalah Rp 10.000, maka setelah transaksi transfer selesai, total uang mereka harus...",
+    "pilihan": {
+      "A": "Berubah menjadi Rp 0",
+      "B": "Menjadi Rp 20.000",
+      "C": "Tetap Rp 10.000 untuk menjaga valid state dan integritas",
+      "D": "Dikurangi biaya administrasi sebesar 10%",
+      "E": "Disimpan di dalam Transaction Log selamanya"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 62,
+    "pertanyaan": "Perintah apa yang digunakan untuk membuat penanda di dalam sebuah transaksi sehingga pengguna dapat melakukan sebagian pembatalan (partial rollback) tanpa membatalkan seluruh transaksi dari awal?",
+    "pilihan": {
+      "A": "COMMIT PARTIAL",
+      "B": "SAVEPOINT",
+      "C": "UNDO TO",
+      "D": "EXIT",
+      "E": "BREAK"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 63,
+    "pertanyaan": "Dalam mekanisme penguncian (Locking), kunci yang digunakan saat sebuah transaksi hanya ingin membaca data (SELECT) dan memperbolehkan transaksi lain ikut membaca secara bersamaan adalah...",
+    "pilihan": {
+      "A": "Exclusive Lock (X)",
+      "B": "Update Lock (U)",
+      "C": "Intent Lock (I)",
+      "D": "Shared Lock (S)",
+      "E": "Schema Lock (Sch)"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 64,
+    "pertanyaan": "Sedangkan kunci yang otomatis digunakan ketika sebuah transaksi memodifikasi data (UPDATE/DELETE) dan secara ketat memblokir transaksi lain untuk membaca atau menulis data tersebut adalah...",
+    "pilihan": {
+      "A": "Shared Lock (S)",
+      "B": "Exclusive Lock (X)",
+      "C": "Intent Lock (I)",
+      "D": "Schema Lock (Sch)",
+      "E": "Deadlock Lock"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 65,
+    "pertanyaan": "Protokol Two-Phase Locking (2PL) menjamin serializability dengan membagi transaksi ke dalam dua fase, yaitu...",
+    "pilihan": {
+      "A": "Fase Read dan Fase Write",
+      "B": "Fase Growing (memperoleh kunci tanpa melepaskan) dan Fase Shrinking (melepaskan kunci tanpa memperoleh baru)",
+      "C": "Fase Commit dan Fase Rollback",
+      "D": "Fase Backup dan Fase Restore",
+      "E": "Fase Analisa dan Fase Eksekusi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 66,
+    "pertanyaan": "Kondisi di mana sebuah transaksi terus-menerus gagal dieksekusi atau menunggu tanpa batas waktu karena sumber daya (kunci) selalu didahulukan untuk transaksi lain disebut...",
+    "pilihan": {
+      "A": "Deadlock",
+      "B": "Starvation (Livelock)",
+      "C": "Phantom Read",
+      "D": "Dirty Read",
+      "E": "Race Condition"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 67,
+    "pertanyaan": "Metode pendeteksian dan pencegahan deadlock (deadlock prevention) yang mengharuskan transaksi me-request semua lock yang dibutuhkannya sekaligus pada saat awal dieksekusi disebut dengan pendekatan...",
+    "pilihan": {
+      "A": "Conservative Two-Phase Locking",
+      "B": "Strict Two-Phase Locking",
+      "C": "Timestamp Ordering",
+      "D": "Optimistic Locking",
+      "E": "Wait-Die Scheme"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 68,
+    "pertanyaan": "Analisa Kasus: Seorang junior developer salah mengeksekusi 'UPDATE nasabah SET saldo = 0' tanpa klausa WHERE di database produksi 10 menit yang lalu dan datanya ter-commit. Tindakan recovery paling efisien yang harus dilakukan DBA adalah...",
+    "pilihan": {
+      "A": "Mengeksekusi perintah ROLLBACK saat itu juga",
+      "B": "Melakukan restore dari Full Backup malam sebelumnya dan membiarkan data hari ini hilang",
+      "C": "Melakukan Point-in-Time Recovery (PITR) menggunakan Full Backup dan Transaction Log mundur ke waktu sebelum kejadian salah update",
+      "D": "Mematikan server DBMS secara paksa agar data tidak menumpuk",
+      "E": "Mengganti hak akses junior developer tersebut"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 69,
+    "pertanyaan": "Analisa Kasus: Aplikasi e-commerce berhenti merespon dan memunculkan error 'Transaction was deadlocked'. Setelah mendeteksi deadlock melalui Wait-for Graph, tindakan otomatis yang diambil DBMS untuk menyelesaikannya adalah...",
+    "pilihan": {
+      "A": "Memutus semua koneksi jaringan pengguna ke database",
+      "B": "Menambah penggunaan memori server secara drastis",
+      "C": "Memilih salah satu transaksi dalam siklus deadlock sebagai 'victim' (korban) lalu membatalkan (rollback) transaksi tersebut",
+      "D": "Menghapus index pada tabel yang sering terkunci",
+      "E": "Mengubah level isolasi transaksi menjadi Read Uncommitted otomatis"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 70,
+    "pertanyaan": "Analisa Kasus: Alert monitoring berbunyi pada jam 2 siang karena I/O Disk mencapai 100%. Setelah diperiksa, query biasa menjadi lambat padahal traffic pengguna normal. Log menunjukkan aktivitas 'Rebuild Index' besar-besaran sedang berjalan. Langkah kontrol (Control) paling tepat yang harus dilakukan DBA ke depannya adalah...",
+    "pilihan": {
+      "A": "Menghapus semua index di database agar tidak perlu lagi di-rebuild",
+      "B": "Menjadwalkan ulang tugas pemeliharaan Rebuild Index ke jendela pemeliharaan (maintenance window) pada malam hari saat traffic sepi",
+      "C": "Menghentikan total layanan aplikasi setiap kali index di-rebuild",
+      "D": "Mengganti sistem manajemen basis data ke basis data NoSQL",
+      "E": "Membiarkannya karena I/O Disk 100% adalah tanda server berkinerja maksimal"
+    },
+    "jawaban_benar": "B"
+  }
+]
